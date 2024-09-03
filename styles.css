@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e7ce; /* A light chocolatey color */
+}
+
+header {
+    background-color: #6b4f3f; /* Rich chocolate brown */
+    color: #fff3e0; /* Creamy white */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #d2691e; /* Caramel border */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff3e0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #fff3e0;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #d2691e; /* Caramel border */
+}
+
+#home h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #6b4f3f;
+}
+
+.product {
+    background-color: #fff3e0;
+    padding: 20px;
+    border: 2px solid #6b4f3f;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #d2691e;
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    background-color: #6b4f3f;
+    color: #fff3e0;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.buyButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d2691e; /* Caramel color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.buyButton:hover {
+    background-color: #b85c2a; /* Darker caramel on hover */
+}
